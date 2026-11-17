@@ -8,12 +8,18 @@ yarn-error.log*
 # NestJS build artifacts
 dist/
 */dist/
+*.tsbuildinfo
 
 # Environment configurations and database secrets
 .env
 .env.local
 .env.production
-*/.env
+
+# AI Agent skill caches
+.claude/
+.cursor/
+.agents/
+.devin/
 
 # Editor and system artifacts
 .DS_Store
